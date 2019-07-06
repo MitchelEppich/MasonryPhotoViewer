@@ -1,0 +1,70 @@
+.app {
+    text-align: center;
+}
+
+.app__head {
+    position: fixed;
+    width: 100%;
+    background-color: #cf344b;
+    z-index: 100;
+}
+
+.app__head p {
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+.app__body {
+    background: #e9e9e9;
+}
+
+.app__container {
+    padding: 100px 150px 0px 150px;
+    display: flex;
+}
+
+.image {
+    transition: all .2s ease-in-out;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+.image__modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 500px;
+    width: 1000px;
+    margin-left: -500px;
+    margin-top: -250px;
+    z-index: 1;
+}
+
+.image__modal-content img {
+    height: 100%;
+    border-style: solid;
+    border-width: 10px;
+    animation-delay: 0.5s;
+    animation: scaleImage 0.2s;
+}
+
+.image__modal-backdrop {
+    transition: all .2s ease-in-out;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0.75;
+}
+
+@keyframes scaleImage {
+    from {
+        transform: scaleY(0);
+    }
+    to {
+        transform: scaleY(1);
+    }
+}
