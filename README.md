@@ -4,6 +4,9 @@
 
 Masonry Photo Viewer is a single page React application, bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+`Note: This application is using a demo version of the Unsplash API and is limited to 50 API calls per day.
+     In the case that the application fails to load properly I have added 5 other access codes for the API to allow for up to 300 API          calls per day and have gone over how to switch the API access code in the App.js file.`
+
 ## Getting started
 
 To get the frontend running locally:
