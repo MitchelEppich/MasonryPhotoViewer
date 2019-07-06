@@ -1,5 +1,7 @@
 # Masonry Photo Viewer
 
+![chrome-capture](https://user-images.githubusercontent.com/8814112/60753545-d934de00-9f88-11e9-8a6b-70209fcf5339.gif)
+
 Masonry Photo Viewer is a single page React application, bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Getting started
